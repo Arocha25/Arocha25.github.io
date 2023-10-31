@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="estilo.css">
+    <title>PHOCUS STUDIO PROPUESTA 3</title>
+</head>
+
+<body>
+    <!-- SECCION I N I C I O -->
+    <section id="inicio">
+        <div class="contenido">
+            <header>
+                <div class="contenido-header">
+                    <a href="#">
+                        <img src="img/logo.png" class="logo-phocus" alt="Logo de Phocus Studio">
+                    </a>
+                    <nav id="nav" class="">
+                        <ul id="links">
+                            <li><a href="#inicio" class="seleccionado" onclick="seleccionar(this)">INICIO</a></li>
+                            <li><a href="#sobremi" onclick="seleccionar(this)">SOBRE NOSOTROS</a></li>
+                            <li><a href="#servicios" onclick="seleccionar(this)">SERVICIOS</a></li>
+                            <li><a href="#capacitaciones" onclick="seleccionar(this)">CAPACITACIONES</a></li>
+                            <li><a href="#portfolio" onclick="seleccionar(this)">NUESTROS CLIENTES</a></li>
+                            <li><a href="#contacto" onclick="seleccionar(this)">CONTACTO</a></li>
+                            
+                        </ul>
+                    </nav>
+
+                    <!-- Icono del menu responsive -->
+                    <div id="icono-nav" onclick="responsiveMenu()">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
+
+
+                    <div class="redes">
+                        <a href="#"></a><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+            </header>
+            <div class="presentacion">
+                <p class="bienvenida">#WeArePHOCUS</p>
+                <h2>Somos <span>PHOCUS STUDIO</span>, Agencia de Publicidad</h2>
+                <p class="descripcion">¡Impulsamos tu negocio en redes sociales con total profesionalismo y experiencia! </p>
+                <a href="#portfolio">Ir a NUESTROS CLIENTES</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION S O B R E M I -->
+    <section id="sobremi">
+        <div class="contenedor-foto">
+            <img src="img/foto.jpg" alt="">
+        </div>
+        <div class="sobremi">
+            <p class="titulo-seccion">Sobre Nosotros</p>
+            <h2>Hola, Somos <span>PHOCUS STUDIO</span> </h2>
+            <h3>Agencia de Publicidad</h3>
+            <p>Somos una agencia de publicidad formada por un equipo de expertos en diseño e ingeniería en marketing ,ventas, fotografía y diseño, 
+                desarrollamos estrategias  y soluciones  para satisfacer las necesidades de comunicación 
+                visual de nuestros clientes por medio de publicidad impresa y digital.</p>
+            <p>Nuestra forma de trabajar en el mercado digital, no consiste en vender solamente, sino en formar parte de tu equipo analizando primero dónde estamos y donde quisiéramos estar. 
+                Tu meta, se convierte en nuestra meta, por lo que iniciamos con un estudio comparativo en los medios digitales que llamamos análisis de competencia, cuales son tus medios de difusión, el nivel de posicionamiento digital 
+                en el mercado al que está dirigido,  La calidad de diseño y las plataformas utilizadas, la calidad de información en el sitio web y en redes sociales, etc.</p>
+            <a href="https://www.behance.net/" target="_blank">Conoce más</a>
+        </div>
+    </section>
+
+    <!-- SECCION S E R V I C I O S -->
+    <section id="servicios">
+        <h3 class="titulo-seccion">NUESTROS SERVICIOS</h3>
+        <div class="fila">
+            <div class="servicio">
+                <div class="icono">
+                    <img class="icon-services" src="img/illustration.png" alt="">
+                </div>
+                <h4>DISEÑO GRÁFICO</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Experiencia</li>
+                    <li>Creatividad</li>
+                    <li>Talento</li>
+                </ul>
+                <p>Nuestro equipo de diseñadores gráficos crea diseños visualmente atractivos y profesionales para lograr una imagen de marca sólida y coherente en todos los medios de comunicación.</p>
+            </div>
+            <div class="servicio">
+                <div class="icono">
+                    <img class="icon-services" src="img/advertisement.png" alt="">
+                </div>
+                <h4>CAMPAÑAS</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Vision Comercial</li>
+                    <li>Creatividad</li>
+                </ul>
+                <p>Desarrollamos planes de comunicación estratégicos y personalizados que se alinean con los objetivos de negocio de nuestros clientes, teniendo en cuenta su mercado objetivo.</p>
+            </div>
+            <div class="servicio">
+                <div class="icono">
+                    <img class="icon-services" src="img/sm.png" alt="">
+                </div>
+                <h4>REDES SOCIALES</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Viralidad</li>
+                    <li>Posicionamiento</li>
+
+                </ul>
+                <p>Creamos y gestionamos estrategias de contenido para las redes sociales de nuestros clientes, desarrollando un plan de publicación coherente y relevante para aumentar el público objetivo.</p>
+            </div>
+            <div class="servicio">
+                <div class="icono">
+                    <img class="icon-services" src="img/social-media-marketing.png" alt="">
+                </div>
+                <h4>MARKETING DIGITAL</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Personalización</li>
+                    <li> Estrategias </li>
+                </ul>
+                <p> Implementamos estrategias de publicidad en línea, marketing por correo electrónico, SEO, SEM y estrategias de optimización de conversiones para atraer a nuestros clientes.
+                </p>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="servicio">
+                <div class="icono">
+                    <img class="icon-services" src="img/camera.png" alt="">
+                </div>
+                <h4>FOTOGRAFÍA Y P. AUDIOVISUAL</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Alta calidad</li>
+                    <li> Buenos equipos </li>
+                </ul>
+                <p>Contamos con un equipo de fotógrafos y productores audiovisuales que crean contenido visual de alta calidad para las campañas publicitarias de nuestros clientes, incluyendo fotografías, videos promocionales y anuncios de televisión.
+                </p>
+            </div>
+            <div class="servicio">
+                <div class="icono">
+                    <img class="icon-services" src="img/coding.png" alt="">
+                </div>
+                <h4>DESARROLLO Y <br>DISEÑO WEB</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Creación</li>
+                    <li>Optimización</li>
+
+                </ul>
+                <p>Creamos y desarrollamos sitios web atractivos y funcionales que se adaptan a las necesidades específicas de nuestros clientes, asegurando una presencia en línea efectiva y una experiencia de usuario optimizada.
+                </p>
+            </div>
+            <div class="servicio">
+                <div class="icono">
+                    <img class="icon-services" src="img/training.png" alt="">
+                </div>
+                <h4>CAPACITACIONES ESPECIALIZADAS</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Tiempo</li>
+                    <li>Objetivos</li>
+
+                </ul>
+                <p>Ofrecemos programas de capacitación personalizados en áreas como marketing digital, gestión de redes sociales y estrategia de marca, para ayudar a nuestros clientes a adquirir conocimientos para el éxito de su marca.  </p>
+            </div>
+            <div class="servicio">
+                <div class="icono">
+                    <img class="icon-services" src="img/ad.png" alt="">
+                </div>
+                <h4>ANUNCIOS PUBLICITARIOS</h4>
+                <hr>
+                <ul class="servicios-tag">
+                    <li>Efectividad</li>
+                    <li>Visibilidad</li>
+
+                </ul>
+                <p>Diseñamos y ejecutamos campañas publicitarias efectivas en diferentes plataformas, como Google Ads, Facebook Ads, Instagram Ads, entre otros, para aumentar la visibilidad y conversiones para nuestros clientes.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCION H A B I L I D A D E S -->
+    <div class="contenedor-skills" id="skills">
+        <h3>VIRTUDES </h3>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Comprensión al cliente y capacidades del negocio</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="html"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Transparencia en gestión</p>
+                <span class="porcentaje">100%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="js"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span> Experiencia y Clientes contentos</p>
+                <span class="porcentaje">90%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="bd"></div>
+            </div>
+        </div>
+        <div class="skill">
+            <div class="info">
+                <p> <span class="lista"> </span>Conocimiento de las estrategias de marketing más actuales</p>
+                <span class="porcentaje">95%</span>
+            </div>
+
+            <div class="barra">
+                <div class="" id="ps"></div>
+            </div>
+        </div>
+    </div>
+
+        <!-- SECCION S O B R E M I -->
+    <section id="capacitaciones">
+
+        <div class="capacitaciones">
+            <p class="titulo-seccion">Aprende con Nosotros</p>
+            <h2>Te ofrecemos las mejores <span>CAPACITACIONES</span> </h2>
+
+            <p>En PHOCUS STUDIO, nos enorgullece ofrecer una amplia gama de servicios integrales para ayudar a nuestros clientes a destacar en el competitivo mundo del marketing y la comunicación. Nuestro compromiso no se limita solo a la ejecución de campañas publicitarias y servicios creativos, sino que también nos enfocamos en empoderar a nuestros clientes a nivel individual y empresarial. Es por eso que ofrecemos programas de capacitación altamente personalizados, diseñados para potenciar las habilidades y conocimientos esenciales en las áreas clave del marketing y la publicidad.</p>
+            <p>Nuestros programas de capacitación son una extensión natural de nuestra misión de brindar soluciones efectivas y adecuadas a las necesidades de nuestros clientes. Nos damos cuenta de que, en un mundo cada vez más digital, el conocimiento actualizado y las competencias en constante evolución son cruciales para el éxito empresarial.</p>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfeEY8iZyy1pBAAb9O1uYQPl-EputTrsnJ17NdSG0XQVB-Nwg/viewform" target="_blank">Me interesa</a>
+        </div>
+        <div class="contenedor-foto">
+            <img src="img/chamo.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- SECCION PORTAFOLIO -->
+    <section id="portfolio">
+        <h3 class="titulo-seccion">Nuestros Clientes Distinguidos</h3>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto1.jpg" alt="">
+                <div class="info">
+                    <h4>Exclusividades ByTeresa Perozo</h4>
+                    <p> @exclusividadesbyteresaperozo</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto2.jpg" alt="">
+                <div class="info">
+                    <h4>La Paletería</h4>
+                    <p>@lapaleteriapf</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto3.jpg" alt="">
+                <div class="info">
+                    <h4>Policlínica de Especialidades</h4>
+                    <p>@policlinicaespecialidades</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto4.jpg" alt="">
+                <div class="info">
+                    <h4>Punto Glamour</h4>
+                    <p>@puntoglamour.vzla</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto5.jpg" alt="">
+                <div class="info">
+                    <h4>Antojitos 24</h4>
+                    <p>@antojitos24pf</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto6.jpg" alt="">
+                <div class="info">
+                    <h4>Grupo Vessada</h4>
+                    <p>@grupovessada</p>
+                </div>
+            </div>
+        </div>
+        <div class="fila">
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto7.jpg" alt="">
+                <div class="info">
+                    <h4>Shanghai Pizza & Food</h4>
+                    <p>@shanghaipizzapf</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto8.jpg" alt="">
+                <div class="info">
+                    <h4>BIJOU AMETHYSTE HOTEL</h4>
+                    <p>@bijoulapuerta</p>
+                </div>
+            </div>
+            <div class="proyecto">
+                <div class="overlay"></div>
+                <img src="img/proyecto9.jpg" alt="">
+                <div class="info">
+                    <h4>Urban Wings</h4>
+                    <p>@urbanwingsptofijo</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SECCTION C O N T A C T O -->
+    <section id="contacto">
+        <h3 class="titulo-seccion">Contáctanos ahora</h3>
+        <div class="contenedor-form">
+            <form action="">
+                <div class="fila mitad">
+                    <input type="text" placeholder="Nombre Completo *" class="input-mitad">
+                    <input type="email" placeholder="Dirección de Email" class="input-mitad">
+                </div>
+                <div class="fila">
+                    <input type="text" placeholder="Tema..." class="input-full">
+                </div>
+                <div class="fila">
+                    <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje..." class="input-full"></textarea>
+                </div>
+
+                <input type="submit" value="Enviar Mensaje" class="btn-enviar">
+            </form>
+        </div>
+    </section>
+
+    <!-- SECCION FOOTER -->
+    <footer>
+        <p>Todos los derechos reservados - 2023</p>
+        <div class="redes">
+
+            <a href="#"></a><i class="fa-brands fa-instagram"></i></a>
+        </div>
+
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
